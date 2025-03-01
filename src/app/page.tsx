@@ -7,7 +7,7 @@ import './style.css';
 export default function Home() {
   return (
     <div className="min-h-screen bg-amber-50">
-      <header className="bg-amber-800 text-amber-50 p-4">
+      <header className="bg-amber-800 text-amber-50 p-4 sticky">
         <div className="container mx-auto flex justify-between items-center">
           <Link href="/ "><h1 className="text-2xl font-bold">MAGHER</h1></Link>
           <nav>
@@ -33,7 +33,7 @@ export default function Home() {
         <section className="hero bg-amber-100 py-20 background">
           <div className="container mx-auto text-center">
             <div className="titlebx"><h2 className="text-4xl font-bold text-amber-800 mb-4">Bienvenida/o a MAGHER</h2>
-            <p className="text-xl text-amber-700 mb-8">Panadería con mas de 30 años en funcionamiento</p></div>
+            <p className="text-xl text-amber-700 mb-8">Panadería con mas de 30 años sirviendo a la comunidad</p></div>
             <br />
             <Image
               src="/home/MGH.png"

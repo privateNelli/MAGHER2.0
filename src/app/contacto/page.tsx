@@ -1,11 +1,12 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Clock, MapPin, Phone } from "lucide-react"
+import './style.css';
 
 export default function Contacto() {
   return (
     <div className="min-h-screen bg-amber-50">
-      <header className="bg-amber-800 text-amber-50 p-4">
+      <header className="bg-amber-800 text-amber-50 p-4 sticky">
         <div className="container mx-auto flex justify-between items-center">
           <Link href="/ "><h1 className="text-2xl font-bold">MAGHER</h1></Link>
           <nav>
@@ -17,9 +18,7 @@ export default function Contacto() {
                 <Link href="/productos">Productos</Link>
               </li>
               <li>
-                <a href="#" className="hover:text-amber-200">
-                  Sobre Nosotros
-                </a>
+              <Link href="/sobnos">Sobre Nosotros</Link>
               </li>
               <li>
                 <Link href="/contacto">Contacto</Link>
